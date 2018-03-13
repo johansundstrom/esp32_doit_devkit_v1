@@ -1,2 +1,7 @@
-# esp32_doit_devkit_v1
-Allt om ESP32 V1 Från DOIT
+# ESP32 på devkit v1 från DOIT
+Dokumentationen kan delas upp i två delar
+1. Tech spec på ESP32
+2. Tech spec på DevKit V1 från DOIT
+
+## Pinout
+
