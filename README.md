@@ -1,5 +1,5 @@
 # ESP32 på devkit v1 från DOIT
-Först, varför publicerar jag detta? -Jo, för att just de billiga (55 SEK på Banggood) ESP-Wroom-32 utvecklingskorten från t.ex. Banggood.com verkar vilja sälja bort en serie utvecklingskort till förmån för nya serier ellre så rör det sig om piratkopierade utvecklingskort med äkta ESP-chip.
+Först, varför publicerar jag detta? -Jo, för att just de billiga (55 SEK på t.ex. Banggood) ESP-WROOM-32 utvecklingskorten från t.ex. Banggood.com verkar vilja sälja bort en serie utvecklingskort till förmån för nya serier ellre så rör det sig om piratkopierade utvecklingskort med äkta ESP-chip.
 
 ## Vad skiljer?
 ESP32 DEVKIT V1 från DOIT har 2x18 pinout (36pin). Just detta kort är obefintligt beskrivet på Internet/Banggood/DOIT. Utvecklingskortet bär ett ESP-WROOM-32 chip som är väldokumenterat. Problemet diskuteras bl.a som ett issue på Github https://github.com/espressif/arduino-esp32/issues/544 senast 3 mars 2018 ock på banggood https://forum.banggood.com/forum-topic-258596.html?page=2. 
@@ -14,8 +14,16 @@ Lägg märke till att andra pinnen till höger på 2x15 kortet också är GND me
 <img src="https://github.com/johansundstrom/esp32_doit_devkit_v1/blob/master/images/esp32-banggod.jpg">
 
 ## Pinout - 2x18 pins versionen från bl.a. Banggood
+Lägg märke till att andra pinnen till höger på 2x15 kortet också är GND medan på 2x18 kortet är det CLK.
 
 <img src="images/esp32-36pins_versionen.jpg">
+
+### Hanteringen av pinnarna
+Avkodning av samtliga pinnar på 2x18pins versionen.
+
+
+## ESP32 - ESP-WROOM-32?
+ESP32 är chipet från Espressif. ESP-WROOM-32 är modulen som chipet sitter på.
 
 Dokumentationen delas upp i två delar
 1. Tech spec på ESP32
