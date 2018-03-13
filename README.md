@@ -13,6 +13,9 @@ Lägg märke till att andra pinnen till höger på 2x15 kortet också är GND me
 <img src="images/pinoutDOIT32devkitv1.png">
 <img src="https://github.com/johansundstrom/esp32_doit_devkit_v1/blob/master/images/esp32-banggod.jpg">
 
+## Pinout - 2x18 pins versionen från bl.a. Banggood
+
+<img src="images/esp32-36pins_versionen.jpg">
 
 Dokumentationen delas upp i två delar
 1. Tech spec på ESP32
