@@ -4,4 +4,5 @@ Dokumentationen kan delas upp i två delar
 2. Tech spec på DevKit V1 från DOIT
 
 ## Pinout
+<img src="images/pinoutDOIT32devkitv1.png">
 <img src="https://github.com/johansundstrom/esp32_doit_devkit_v1/blob/master/images/esp32-banggod.jpg">
