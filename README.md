@@ -1,8 +1,8 @@
 # ESP32 på devkit v1 från DOIT
-Först, varför publicerar jag detta? -Jo, för att just de billiga (55 SEK på t.ex. Banggood) ESP-WROOM-32 utvecklingskorten från t.ex. Banggood.com verkar vilja sälja bort en serie utvecklingskort till förmån för nya serier ellre så rör det sig om piratkopierade utvecklingskort med äkta ESP-chip.
+Först, varför publicerar jag detta? -Jo, för att just de billiga (55 SEK på t.ex. Banggood) ESP-WROOM-32 utvecklingskorten från t.ex. Banggood.com verkar vilja sälja bort en serie utvecklingskort till förmån för nya serier eller så rör det sig om piratkopierade utvecklingskort med äkta ESP-chip.
 
 ## Vad skiljer?
-ESP32 DEVKIT V1 från DOIT har 2x18 pinout (36pin). Just detta kort är obefintligt beskrivet på Internet/Banggood/DOIT. Utvecklingskortet bär ett ESP-WROOM-32 chip som är väldokumenterat. Problemet diskuteras bl.a som ett issue på Github https://github.com/espressif/arduino-esp32/issues/544 senast 3 mars 2018 ock på banggood https://forum.banggood.com/forum-topic-258596.html?page=2. 
+Det billiga utvecklingskortet märkt "ESP32 DEVKIT V1 DOIT" har 2x18 pinout (36pin) är _obefintligt_ dokumenterat på Internet/Banggood/DOIT. Det kortet som har 2x15 (30-pin) är väldokumenterat. Båda utvecklingskorten bär ett ESP-WROOM-32 chip som är väldokumenterat. Problemet med det odokumenterade kortet diskuteras bl.a som ett issue på Github https://github.com/espressif/arduino-esp32/issues/544 senast 3 mars 2018 och på banggood https://forum.banggood.com/forum-topic-258596.html?page=2. 
 
 ## Pin out/Pin map
 Problemet handlar om mappningen mellan _pinout_ - allstå anslutsningspinnarna till kortet och ESP32-pinnarna på chipet. Utvecklingskortet från DOIT har 2x15 pins.
