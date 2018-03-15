@@ -21,13 +21,8 @@ Lägg märke till att andra pinnen till höger på 2x15 kortet också är GND me
 ### Hanteringen av pinnarna
 Avkodning av samtliga pinnar på 2x18pins versionen.
 
-
 ## ESP32 - ESP-WROOM-32?
 ESP32 är chipet från Espressif. ESP-WROOM-32 är modulen som chipet sitter på.
-
-Dokumentationen delas upp i två delar
-1. Tech spec på ESP32
-2. Tech spec på DevKit V1 från DOIT
 
 ## Block Diagram
 <img src="images/esp32-block.jpg">
