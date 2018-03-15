@@ -5,7 +5,7 @@ Först, varför publicerar jag detta? -Jo, för att just de billiga (55 SEK på 
 Det billiga utvecklingskortet märkt "ESP32 DEVKIT V1 DOIT" har 2x18 pinout (36pin) är _obefintligt_ dokumenterat på Internet/Banggood/DOIT. Det kortet som har 2x15 (30-pin) är väldokumenterat. Båda utvecklingskorten bär ett ESP-WROOM-32 chip som är väldokumenterat. Problemet med det odokumenterade kortet diskuteras bl.a som ett issue på Github https://github.com/espressif/arduino-esp32/issues/544 senast 3 mars 2018 och på banggood https://forum.banggood.com/forum-topic-258596.html?page=2. 
 
 ## Pin out/Pin map
-Problemet handlar om mappningen mellan _pinout_ (anslutsningspinnarna till kortet) och ESP32-pinnarna på chipet.
+Problemet handlar om mappningen mellan _pinout_ (anslutningspinnarna till kortet) och ESP32-pinnarna på chipet.
 
 ## Pinout - 2x15 pins versionen
 Lägg märke till att andra pinnen till höger på 2x15 kortet också är GND medan på 2x18 kortet är det CLK.
