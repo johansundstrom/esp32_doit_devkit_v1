@@ -21,6 +21,9 @@ Lägg märke till att andra pinnen till höger på 2x15 kortet också är GND me
 ### Hanteringen av pinnarna
 Avkodning av samtliga pinnar på 2x18pins versionen.
 
+#### I2C 
+Biblioteket Wire.h använder pin D21 (SDA) och D22 (SCL) på 2x18 kortet.
+
 ## ESP32 - ESP-WROOM-32?
 ESP32 är chipet från Espressif. ESP-WROOM-32 är modulen som chipet sitter på.
 
